@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "05dc2caa50e4e07829c51c0956c2e767"
+name = "fin"
+handle = "fin"
+application_url = "https://claire-disposal-headphones-pulled.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "helge-fin.myshopify.com"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://claire-disposal-headphones-pulled.trycloudflare.com/auth/callback",
+  "https://claire-disposal-headphones-pulled.trycloudflare.com/auth/shopify/callback",
+  "https://claire-disposal-headphones-pulled.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false
